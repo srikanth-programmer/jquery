@@ -1,0 +1,52 @@
+[
+  {
+    "username": "s",
+    "location": "s",
+    "employeeId": "s",
+    "email": "s@va",
+    "reason": "f",
+    "startDate": "2024-06-18",
+    "endDate": "2024-06-19",
+    "approved": true
+  },
+  {
+    "username": "s",
+    "location": "sssssss",
+    "employeeId": "ssss",
+    "email": "sss@ffaf",
+    "reason": "f",
+    "startDate": "2024-06-11",
+    "endDate": "2024-06-12",
+    "approved": false
+  },
+  {
+    "username": "srikanth",
+    "location": "chennai",
+    "employeeId": "2532501",
+    "email": "srikanth.13@gmail.com",
+    "reason": "RMG",
+    "startDate": "2024-06-04",
+    "endDate": "2024-06-05",
+    "approved": true
+  },
+  {
+    "username": "nishanth",
+    "location": "chennai",
+    "employeeId": "lfakaf",
+    "email": "srikanth.13@gmail.com",
+    "reason": "rmg",
+    "startDate": "2024-06-12",
+    "endDate": "2024-06-13",
+    "approved": true
+  },
+  {
+    "username": "srikanth",
+    "location": "chennai",
+    "employeeId": "2532501",
+    "email": "srikanth.13@tcs.com",
+    "reason": "RMg",
+    "startDate": "2024-06-19",
+    "endDate": "2024-06-20",
+    "approved": "pending"
+  }
+]

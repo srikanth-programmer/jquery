@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Access Permission Form</title>
+    <link rel="stylesheet" href="user.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+    <script src="user.js"></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Access Permission Form</h1>
+      <form id="form" autocomplete="off">
+        <div class="div">
+          <input type="text" class="field" id="username" name="username" placeholder="Username " />
+          <h5>Username <span class="red-asterisk">*</span></h5>
+          <label id="username-error" style="display: none;">Please enter a valid username</label>
+        </div>
+        <div class="div">
+          <input
+            type="text"
+            id="location"
+            name="location"
+            class="field"
+            placeholder="Location "
+          />
+          <h5>Location <span class="red-asterisk">*</span></h5>
+          <label id="username-location" style="display: none;">Please enter a valid username</label>
+        </div>
+        <div class="div">
+          <input
+            type="number"
+            id="employeeId"
+            name="employeeId"
+            class="field"
+            placeholder="Employee Id "
+          />
+          <h5>Employee Id <span class="red-asterisk">*</span></h5>
+        </div>
+        <div class="div">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="field"
+            placeholder="Email Id"
+          />
+          <h5>Email Id <span class="red-asterisk">*</span></h5>
+        </div>
+        <div class="div">
+          <input
+            type="text"
+            id="reason"
+            name="reason"
+            class="field"
+            placeholder="Reason "
+          />
+          <h5>Reason <span class="red-asterisk">*</span></h5>
+        </div>
+        <div class="div">
+          <input
+            type="date"
+            id="startDate"
+            name="startdate"
+            class="field"
+            placeholder="Start date "
+          />
+          <h5>Start date <span class="red-asterisk">*</span></h5>
+        </div>
+        <div class="div">
+          <input
+            type="date"
+            id="endDate"
+            name="enddate"
+            class="field"
+            placeholder="End date " readonly
+          />
+          <h5>End date</h5>
+        </div>
+
+        <button type="submit" class="btn" name="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <div>
+        <button id="home" class="home" > Home</button>
+    </div>
+    
+  </body>
+</html>
